@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lexaPort.png">
+	<!-- Created with MY OWN FUCKING HANDS -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lexa Portrait Happy instance 10000" x="45" y="0" width="300" height="391"/>
+	<SubTexture name="Lexa Portrait Confused instance 10000" x="403" y="0" width="300" height="391"/>
+	<SubTexture name="Lexa Portrait Normal instance 10000" x="761" y="0" width="300" height="391"/>
+	<SubTexture name="Lexa Portrait Angry instance 10000" x="1093" y="0" width="300" height="391"/>
+	<SubTexture name="Lexa Portrait Blacklight instance 10000" x="1415" y="0" width="300" height="391"/>
+</TextureAtlas>

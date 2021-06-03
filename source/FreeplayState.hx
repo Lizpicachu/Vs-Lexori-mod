@@ -78,6 +78,9 @@ class FreeplayState extends MusicBeatState
 
 		if (StoryMenuState.weekUnlocked[6] || isDebug)
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);
+		
+		if (StoryMenuState.weekUnlocked[7] || isDebug)
+			addWeek(['Frustration','Kickstep'], 7, ['lexa']);
 
 		// LOAD MUSIC
 
@@ -258,10 +261,10 @@ class FreeplayState extends MusicBeatState
 	function changeSelection(change:Int = 0)
 	{
 		#if !switch
-		NGio.logEvent('Fresh');
+		
 		#end
 
-		// NGio.logEvent('Fresh');
+		//
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
 		curSelected += change;

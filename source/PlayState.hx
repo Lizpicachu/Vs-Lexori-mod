@@ -183,6 +183,10 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+			case 'frustration':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('frustration/frustrationDialogue'));
+			case 'kickstep':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('kickstep/kickstepDialogue'));
 		}
 
 		#if desktop
@@ -540,6 +544,17 @@ class PlayState extends MusicBeatState
 		                            add(waveSpriteFG);
 		                    */
 		          }
+			   case 'kickstep'|'frustration':
+		          {
+		                  defaultCamZoom = 0.9;
+		                  curStage = 'stage';
+		                  var bg:FlxSprite = new FlxSprite(-600, -300).loadGraphic(Paths.image('LexaBack'));
+		                  bg.antialiasing = true;
+		                  bg.scrollFactor.set(0.9, 0.9);
+		                  bg.active = false;
+		                  add(bg);
+		          }
+
 		          default:
 		          {
 		                  defaultCamZoom = 0.9;
@@ -606,6 +621,8 @@ class PlayState extends MusicBeatState
 
 			case "spooky":
 				dad.y += 200;
+			case "lexa":
+				dad.y += 0;
 			case "monster":
 				dad.y += 100;
 			case 'monster-christmas':
@@ -800,6 +817,10 @@ class PlayState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				case 'thorns':
+					schoolIntro(doof);
+				case 'frustration':
+					schoolIntro(doof);
+				case 'kickstep':
 					schoolIntro(doof);
 				default:
 					startCountdown();

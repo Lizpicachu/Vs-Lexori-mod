@@ -139,6 +139,28 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
+		       case 'lexa':
+				// LEXA ANIMATION LOADING CODE
+				
+				tex = Paths.getSparrowAtlas('Lexa_assets');
+				frames = tex;
+				animation.addByPrefix('idle', 'Lexa_Idle', 12);
+				animation.addByPrefix('singUP', 'Lexa_Sing_Up', 24);
+				animation.addByPrefix('singRIGHT', 'Lexa_Sing_Right', 24);
+				animation.addByPrefix('singDOWN', 'Lexa_Sing_Down', 24);
+				animation.addByPrefix('singLEFT', 'Lexa_Sing_Left', 24);
+				animation.addByPrefix('singUP-alt', 'Lexa_Sing_ALT_Up', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'Lexa_Sing_ALT_Right', 24, false);
+				animation.addByPrefix('singDOWN-alt', 'Lexa_Sing_ALT_Down', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'Lexa_Sing_ALT_Left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
+
+				playAnim('idle');
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('spooky_kids_assets');
 				frames = tex;

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\ISSUE_TEMPLATE",
+    "\\.github\\PULL_REQUEST_TEMPLATE",
+    "\\.github\\workflows",
+    "\\source"
+  ],
+  "SelectedNode": "\\source\\import.hx",
+  "PreviewInSolutionExplorer": false
+}

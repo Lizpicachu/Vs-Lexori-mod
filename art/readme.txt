@@ -13,15 +13,34 @@
  __                                                    
 |_   _ .  _|  _        _  .  _  |_  |_       _  _  |_  
 |   |  | (_| (_| \/   | ) | (_) | ) |_   \/ (- (_| | ) 
-                 /          _/           /             
+                 /          _/           /         
+_______________________________________________________________________________
+
+HEY!
+
+Thank you for downloading my mod
+A few things:
+Music is by me, if this mod gains any traction, I will put the music up for download
+HARD MODE NEEDS MORE WORK! I am currently trying to fix the diffucluty issue and I'll realease a patch once that happens
+
+This mod was made by Lizpicachu
+
+My socials:
+Discord:Lizpicachu#2591
+Reddit:u/LiztheSongBird
+Gamebanana:Lizpicachu
+https://gamebanana.com/members/1840286
+
+I HAVE NO TWITTER, FACEBOOK, OR INSTAGRAM
+________________________________________________________________________________
 
 HEY
-Thanks for downloadin Friday Night FUNKIN'
-If you downloaded this from any other place than ninja-muffin24.itch.io/FUNKIN
+Thanks for downloadin Friday Night FUNKIN' Lexori mod
+If you downloaded this from any other place than gamebanana.com/mods/292047 (For The Lexori mod)
 You might be in DANGER!!! 
 
-The Itch.io release is the only official source for the desktop (PC, Mac, Linux) versions of the game!
-As of right now, the game is FREE! If you paid for it, you got SCAMMED!
+The gamebanana release is the only official source for the desktop/PC version of the game!
+As of right now, the Mod is FREE! If you paid for it, you got SCAMMED!
 
 Now that that's out of the way....
 THANKS FOR DOWNLOADIN. 
